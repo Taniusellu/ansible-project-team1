@@ -22,7 +22,6 @@
         region: "{{region}}"
         cidr: "{{Private_cidr1}}"
         az: "{{region}}a"
-        map_public_ip_on_launch: true
         resource_tags:
           Name: Priv Subnet1
       register: Priv_Subnet1
@@ -34,7 +33,6 @@
         region: "{{region}}"
         cidr: "{{Private_cidr2}}"
         az: "{{region}}b"
-        map_public_ip_on_launch: true
         resource_tags:
           Name: Priv Subnet2
       register: Priv_Subnet2
@@ -47,7 +45,6 @@
         region: "{{region}}"
         cidr: "{{Private_cidr3}}"
         az: "{{region}}c"
-        map_public_ip_on_launch: true
         resource_tags:
           Name: Priv Subnet3
       register: Priv_Subnet3
