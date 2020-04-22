@@ -19,6 +19,7 @@
         vpc_id: "{{VPC1.vpcs[0].id}}"
         region: "{{region}}"
         cidr: "{{Public_cidr1}}"
+        az: "{{region}}a"
         resource_tags:
           Name: Pub Subnet1
       register: Pub_Subnet1
@@ -30,6 +31,7 @@
         vpc_id: "{{VPC1.vpcs[0].id}}"
         region: "{{region}}"
         cidr: "{{Public_cidr2}}"
+        az: "{{region}}b"
         resource_tags:
           Name: Pub Subnet2
       register: Pub_Subnet2
@@ -40,6 +42,7 @@
         vpc_id: "{{VPC1.vpcs[0].id}}"
         region: "{{region}}"
         cidr: "{{Public_cidr3}}"
+        az: "{{region}}c"
         resource_tags:
           Name: Pub Subnet3
       register: Pub_Subnet3
@@ -48,4 +51,4 @@
 
     - name: Debug
       debug:
-        msg:  
+        msg:
