@@ -14,7 +14,7 @@
       register: VPC1
 
     - name: Create Public Subnet 1
-      map_public_ip_on_launch: true
+      map_public_ip_on_launch: yes
       ec2_vpc_subnet:
         state: present
         vpc_id: "{{VPC1.vpcs[0].id}}"
@@ -29,7 +29,7 @@
    
 
     - name: Create Public Subnet 2
-      map_public_ip_on_launch: true
+      map_public_ip_on_launch: yes
       ec2_vpc_subnet:
         state: present
         vpc_id: "{{VPC1.vpcs[0].id}}"
@@ -40,10 +40,10 @@
         resource_tags:
           Name: Pub Subnet2
       register: Pub_Subnet2
-      map_public_ip_on_launch: yes
+      
 
     - name: Create Public Subnet 3
-      map_public_ip_on_launch: true
+      map_public_ip_on_launch: yes
       ec2_vpc_subnet:
         state: present
         vpc_id: "{{VPC1.vpcs[0].id}}"
@@ -54,10 +54,10 @@
         resource_tags:
           Name: Pub Subnet3
       register: Pub_Subnet3
-      map_public_ip_on_launch: yes
+      
 
 
 
-    - name: Debug
-      debug:
-        msg:
+#     - name: Debug
+#       debug:
+#         msg:
