@@ -28,3 +28,11 @@ In order to work with Python 2.7.16, install next packages:
 *  pip install boto awscli
 
 
+
+
+
+Issues 
+=======
+
+#1
+
