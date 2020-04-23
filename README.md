@@ -1,5 +1,5 @@
 Create the VPC using ansible. Make sure the code work in every region of AWS.  
-
+==============================================================================
 1. VPC 
 
 2. 6 subnets 
