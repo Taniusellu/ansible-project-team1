@@ -9,13 +9,12 @@
     - name: Collect VPC info
       ec2_vpc_net_facts:
         region: "{{region}}"
-        #map_public_ip_on_launch: yes
         filters:
           "tag:Task": VPC
       register: VPC1
 
     - name: Create Public Subnet 1
-       map_public_ip_on_launch: true
+      map_public_ip_on_launch: true
       ec2_vpc_subnet:
         state: present
         vpc_id: "{{VPC1.vpcs[0].id}}"
@@ -30,6 +29,7 @@
    
 
     - name: Create Public Subnet 2
+      map_public_ip_on_launch: true
       ec2_vpc_subnet:
         state: present
         vpc_id: "{{VPC1.vpcs[0].id}}"
@@ -43,6 +43,7 @@
       map_public_ip_on_launch: yes
 
     - name: Create Public Subnet 3
+      map_public_ip_on_launch: true
       ec2_vpc_subnet:
         state: present
         vpc_id: "{{VPC1.vpcs[0].id}}"
