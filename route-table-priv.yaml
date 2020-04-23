@@ -23,5 +23,6 @@
           - "{{Priv_Subnet2.subnet.id}}"
           - "{{Priv_Subnet3.subnet.id}}"
         routes:
-          - dest: "{{vpc_cidr}}"
-      register: private_route_table
+          - dest: 0.0.0.0/0
+          instance_id: "{{nat.instance_id}}"
+    register: nat_route_table
