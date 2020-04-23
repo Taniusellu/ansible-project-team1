@@ -33,6 +33,7 @@ In order to work with Python 2.7.16, install next packages:
 
 Issues 
 =======
+1)  The next issue you will get when the List of Elasti IPs will be 5. In order to solve the problem, delete one EIPs and run again.
 
-#1
+#fistphoto
 
