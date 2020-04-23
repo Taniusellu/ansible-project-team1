@@ -28,7 +28,6 @@
    
 
     - name: Create Public Subnet 2
-      map_public_ip_on_launch: yes
       ec2_vpc_subnet:
         state: present
         vpc_id: "{{VPC1.vpcs[0].id}}"
