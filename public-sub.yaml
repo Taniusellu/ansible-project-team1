@@ -14,14 +14,13 @@
       register: VPC1
 
     - name: Create Public Subnet 1
-      map_public_ip_on_launch: yes
       ec2_vpc_subnet:
         state: present
         vpc_id: "{{VPC1.vpcs[0].id}}"
         region: "{{region}}"
         cidr: "{{Public_cidr1}}"
         az: "{{region}}a"
-        #map_public_ip_on_launch: yes
+        map_public_ip_on_launch: yes
         resource_tags:
           Name: Pub Subnet1
       register: Pub_Subnet1
@@ -36,21 +35,20 @@
         region: "{{region}}"
         cidr: "{{Public_cidr2}}"
         az: "{{region}}b"
-        #map_public_ip_on_launch: yes
+        map_public_ip_on_launch: yes
         resource_tags:
           Name: Pub Subnet2
       register: Pub_Subnet2
       
 
     - name: Create Public Subnet 3
-      map_public_ip_on_launch: yes
       ec2_vpc_subnet:
         state: present
         vpc_id: "{{VPC1.vpcs[0].id}}"
         region: "{{region}}"
         cidr: "{{Public_cidr3}}"
         az: "{{region}}c"
-        #map_public_ip_on_launch: yes
+        map_public_ip_on_launch: yes
         resource_tags:
           Name: Pub Subnet3
       register: Pub_Subnet3
