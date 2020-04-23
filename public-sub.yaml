@@ -9,6 +9,7 @@
     - name: Collect VPC info
       ec2_vpc_net_facts:
         region: "{{region}}"
+        map_public_ip_on_launch: true
         filters:
           "tag:Task": VPC
       register: VPC1
@@ -20,7 +21,7 @@
         region: "{{region}}"
         cidr: "{{Public_cidr1}}"
         az: "{{region}}a"
-        map_public_ip_on_launch: yes
+        #map_public_ip_on_launch: yes
         resource_tags:
           Name: Pub Subnet1
       register: Pub_Subnet1
@@ -33,7 +34,7 @@
         region: "{{region}}"
         cidr: "{{Public_cidr2}}"
         az: "{{region}}b"
-        map_public_ip_on_launch: yes
+        #map_public_ip_on_launch: yes
         resource_tags:
           Name: Pub Subnet2
       register: Pub_Subnet2
@@ -45,7 +46,7 @@
         region: "{{region}}"
         cidr: "{{Public_cidr3}}"
         az: "{{region}}c"
-        map_public_ip_on_launch: yes
+        #map_public_ip_on_launch: yes
         resource_tags:
           Name: Pub Subnet3
       register: Pub_Subnet3
