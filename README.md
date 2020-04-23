@@ -20,5 +20,11 @@ on public subnet and ping google.com. If everything is successful, you should ha
 
 Requirements
 ------------
+In order to work with Python 2.7.16, install next packages:
+* yum install ansible -y
+* amazon-linux-extras install ansible2
+* yum install python-boto3 -y
+* yum install python-pip -y
+*  pip install boto awscli
 
 
