@@ -9,7 +9,7 @@
     - name: Collect VPC info
       ec2_vpc_net_facts:
         region: "{{region}}"
-        map_public_ip_on_launch: true
+        map_public_ip_on_launch: yes
         filters:
           "tag:Task": VPC
       register: VPC1
