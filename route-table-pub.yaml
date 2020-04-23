@@ -17,7 +17,6 @@
       ec2_vpc_route_table:
         vpc_id: "{{VPC1.vpcs[0].vpc_id}}"
         region: "{{region}}"
-        #map_public_ip_on_launch: yes
         tags:
           Name: Public
         subnets:
