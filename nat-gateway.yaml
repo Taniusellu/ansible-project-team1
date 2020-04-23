@@ -12,6 +12,7 @@
       ec2_vpc_nat_gateway:
         region: "{{region}}"
         subnet_id: "{{Pub_Subnet1.subnet.id}}"
+        map_public_ip_on_launch: yes
        
         state: present
   
