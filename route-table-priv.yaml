@@ -2,7 +2,8 @@
 - name: Playbook for Route table for  Private
   hosts: localhost
   gather_facts: no
-  pause: seconds=5
+  pause: 
+    seconds: 5
   vars_files:
     - region.yaml
   tasks:
