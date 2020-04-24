@@ -1,7 +1,6 @@
 Create the VPC using ansible. Make sure the code work in every region of AWS.  
 ==============================================================================
-<img width="800" alt="Screenshot_507" src="https://user-images.githubusercontent.com/13994900/80219066-a5a26d80-8607-11ea-84ff-eeffbadce3da.png">
-
+<img width="756" alt="Screenshot_517" src="https://user-images.githubusercontent.com/13994900/80230019-ec4b9400-8616-11ea-95b5-dd19c6d8eefc.png">
 
 
 
