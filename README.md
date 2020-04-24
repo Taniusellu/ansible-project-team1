@@ -67,6 +67,6 @@ Issues
 Time spent on  project
 ===========================
 
-<img width="350" alt="Screenshot_500" src="https://user-images.githubusercontent.com/13994900/80165896-2cbcfa80-85a2-11ea-84f7-408e7d78a54a.png">
+<img width="350" alt="Screenshot_527" src="https://user-images.githubusercontent.com/13994900/80239295-96cab380-8625-11ea-9788-1bc1534122c0.png">
 
-<img width="350" alt="Screenshot_508" src="https://user-images.githubusercontent.com/13994900/80219237-cec2fe00-8607-11ea-808c-8afb24351b88.png">
+<img width="350" alt="Screenshot_528" src="https://user-images.githubusercontent.com/13994900/80239332-aa761a00-8625-11ea-8293-8ac29c2a9d5c.png">
