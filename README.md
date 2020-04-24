@@ -42,3 +42,10 @@ Issues
 <img width="244" alt="Screenshot_494" src="https://user-images.githubusercontent.com/13994900/80157606-2b80d300-858c-11ea-8a87-4f1b0ee8a178.png">
                               
  
+Time spent on this project
+===========================
+
+<img width="174" alt="Screenshot_498" src="https://user-images.githubusercontent.com/13994900/80165677-87098b80-85a1-11ea-9bec-acbe1a6a21a9.png">
+
+<img width="196" alt="Screenshot_499" src="https://user-images.githubusercontent.com/13994900/80165774-d8197f80-85a1-11ea-8249-56d30f4dc26a.png">
+ 
