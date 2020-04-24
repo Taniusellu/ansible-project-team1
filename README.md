@@ -16,6 +16,24 @@ In order to work with Python 2.7.16, install next packages:
 
 
 
+## Flexibility:
+The project has built with a soft code. Our soft code works flexible with in every region because we have collected all the neccessery codes inside "all.yaml" file. The code should be changed just in region part. For example:
+``` 
+region: "us-west-2"
+```
+```
+region: "us-east-1"
+ ```
+ ``` 
+region: "eu-west-2"
+ ```
+ ## Steps: 
+ 1. Open file
+ 2. Change region part
+ 3. Save file 
+ 4. In your vm run `ansible-playbook all.yaml `
+
+
 
 
 Issues 
