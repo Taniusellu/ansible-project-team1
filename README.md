@@ -27,6 +27,8 @@ Make changes in region.yaml file – to build the infrastructure described above
 
 * It is a must to enable DHCP in order to auto-assign Public IPs. DHCP - Dynamic Host Configuration Protocol is a network management protocol used on Internet Protocol networks whereby a DHCP server dynamically assigns an IP address and other network configuration parameters to each device on a network so they can communicate with other IP networks.
 
+<img width="859" alt="Screenshot_526" src="https://user-images.githubusercontent.com/13994900/80239004-0c824f80-8625-11ea-986c-2aca47309d5d.png">
+
 
 
 Flexibility
