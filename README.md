@@ -4,7 +4,6 @@ Create the VPC using ansible. Make sure the code work in every region of AWS. 
 
 
 
-
 Requirements
 ------------
 In order to work with Python 2.7.16, install next packages:
@@ -14,6 +13,7 @@ In order to work with Python 2.7.16, install next packages:
 * yum install python-pip -y
 *  pip install boto awscli
 
+<img width="676" alt="Screenshot_520" src="https://user-images.githubusercontent.com/13994900/80237995-43576600-8623-11ea-9ae1-0fe24195ec7e.png">
 
 
 ## Flexibility:
