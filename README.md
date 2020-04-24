@@ -19,7 +19,8 @@ In order to work with Python 2.7.16, install next packages:
 <img width="562" alt="Screenshot_522" src="https://user-images.githubusercontent.com/13994900/80238182-94675a00-8623-11ea-8fae-ca0373688e1f.png">
 
 
-## Flexibility:
+Flexibility
+============
 The project has built with a soft code. Our soft code works flexible with in every region because we have collected all the neccessery codes inside "all.yaml" file. The code should be changed just in region part. For example:
 ``` 
 region: "us-west-2"
