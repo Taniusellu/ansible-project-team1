@@ -13,7 +13,8 @@ In order to work with Python 2.7.16, install next packages:
 * yum install python-pip -y
 *  pip install boto awscli
 
-<img width="676" alt="Screenshot_520" src="https://user-images.githubusercontent.com/13994900/80237995-43576600-8623-11ea-9ae1-0fe24195ec7e.png">
+### Architecture
+<img width="674" alt="Screenshot_521" src="https://user-images.githubusercontent.com/13994900/80238083-697d0600-8623-11ea-9123-e88f3004f0db.png">
 
 
 ## Flexibility:
