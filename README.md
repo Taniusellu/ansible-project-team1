@@ -18,6 +18,15 @@ In order to work with Python 2.7.16, install next packages:
 
 <img width="562" alt="Screenshot_522" src="https://user-images.githubusercontent.com/13994900/80238182-94675a00-8623-11ea-8fae-ca0373688e1f.png">
 
+Dependencies 
+==============
+
+* The architecture of VPC is the core for the project.
+It is not depended on another team and is not solely built to be region depended, because of the flexibility of the code, it can be easily configured to work in any of the available regions.
+Make changes in region.yaml file – to build the infrastructure described above.
+
+
+
 
 Flexibility
 ============
