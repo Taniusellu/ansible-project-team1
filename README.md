@@ -36,6 +36,4 @@ Time spent on  project
 
 <img width="350" alt="Screenshot_500" src="https://user-images.githubusercontent.com/13994900/80165896-2cbcfa80-85a2-11ea-84f7-408e7d78a54a.png">
 
-
-<img width="350" alt="Screenshot_504" src="https://user-images.githubusercontent.com/13994900/80168369-48c39a80-85a8-11ea-959b-a0ff13b2bc02.png">
-
+<img width="350" alt="Screenshot_508" src="https://user-images.githubusercontent.com/13994900/80219237-cec2fe00-8607-11ea-808c-8afb24351b88.png">
