@@ -25,4 +25,4 @@
         routes:
           - dest: 0.0.0.0/0
             instance_id: "{{nat.instance_id}}"
-      register: nat
+#       register: nat
