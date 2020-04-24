@@ -2,11 +2,16 @@
 - name: Playbook for Route table for  Private
   hosts: localhost
   gather_facts: no
-  pause: 
-    seconds: 5
   vars_files:
     - region.yaml
+
   tasks:
+    - name: sleep for 300 seconds and continue with play
+      wait_for:
+        timeout: 60
+      delegate_to: localhost
+  
+  
     - name: Collect VPC info
       ec2_vpc_net_facts:
         region: "{{region}}"
