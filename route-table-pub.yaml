@@ -2,6 +2,7 @@
 - name: Playbook for Route table
   hosts: localhost
   gather_facts: no
+  ignore_errors: yes
   vars_files:
     - region.yaml
   tasks:
